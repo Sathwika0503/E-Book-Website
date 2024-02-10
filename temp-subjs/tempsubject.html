@@ -1,0 +1,134 @@
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="x-UA-Compatible" content="ie-edge">
+  <meta charset="utf-8">
+  <title> Hunger For Books</title>
+  <link rel="stylesheet" href="home-page-css/About-Us.css">
+  <link rel="shortcut icon" href="images/small-profile.jpg">
+  <link rel="stylesheet" href="home-page-css/home-page.css">
+  <link rel="stylesheet" href="home-page-css/subjects.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+</head>
+
+<body style="margin:0;">
+  <div style="background-image: url(images/background1.jpg); background-size: cover ; 
+  height: 650px; padding-top: 0.1px;">
+  <ul class="menu">
+    <li class="logo_1"><a href="#"><img class="logo" src="images/small-profile.jpg"></a></li>
+    <li><a href="subjects.html">Subjects</a></li>
+    <li><a href="About-Us.html">About Us</a></li>
+    <li><a href="index.html">Home</a></li>
+  </ul>
+
+  <div class="box">
+    <form action="#" method="post">
+      <input type="text" value="" id="search" onchange="openPage()">
+      <button type="submit"><i class="fa fa-search"></i></button>
+      <link rel="stylesheet" href="search.css">
+      
+      <script>
+      function openPage(){
+      var x=document.getElementById("search").value;
+      if(x==="bee"){
+      window.open("C:\\Users\\HP\\Desktop\\Mini Project\\es.html");
+      }
+      }
+      </script>
+    </form>
+  </div>
+  <style type="text/css">
+    body{
+        padding:0;
+        margin:0;
+        background-blend-mode: normal;
+    }
+    .box{
+        position: absolute;
+        top:715px;
+        left:60%;
+        padding: 15px;
+        background-bLend-mode: normal;
+    }
+    input[type=text]{
+        color:#d47171;
+        font-size: 20px;
+        line-height: 22px;
+        padding: 15px 20px;
+        border: none;
+        outline:0;
+        border-radius: 50px 0px 0px 50px;
+        background-color: #adabab;
+    }
+    input[type=text]:focus{
+        background: #f4f7f4;    
+    }
+    button{
+        color: #F14941;
+        font-size: 20px;
+        line-height: 51px;
+        width: 52px;
+        height: 52px;
+        border: none;
+        border-radius: 0px 50px 50px 0px;
+    }
+    button:hover{
+        color: #980e07;
+        background: #eababa;
+    }
+  </style> 
+
+  <br>
+  <p class="text-center">SUBJECTS<br></p>  
+  <br>
+</div>
+<h4 class="search">Which subject are you looking for ?</h4>
+<!--Section 3: Subjects-->
+<!--h2 class="section-heading">SUBJECTS</h2-->
+<h3 class="semester1">Semster-1</h3>
+
+<div class="column-4 project-2" onclick="window.location='chem.html'">
+  <p class="project-text" >CHEMISTRY</p>
+</div>
+
+<div class="column-4 project-3" onclick="window.location='english.html'" >
+  <p class="project-text">ENGLISH</p>
+</div>
+
+<div class="column-4 project-4" onclick="window.location='math1.html'" >
+  <p class="project-text">MATHEMATICS-1</p>
+</div>
+
+<div class="column-4 project-5" onclick="window.location='ppsc.html'" >
+  <p class="project-text">PPS<br>USING<br>C</p>
+</div>
+<div><p><br></p></div>
+<h3 class="semester2">Semster-2</h3>
+
+<div class="column-4 project-6" onclick="window.location='bee.html'">
+  <p class="project-text">BEE</p>
+</div>
+
+<div class="column-4 project-7" onclick="window.location='es.html'">
+  <p class="project-text">ENVIRONMENTAL<br>SCIENCE</p>
+</div>
+
+<div class="column-4 project-8" onclick="window.location='math2.html'" >
+  <p class="project-text">MATHEMATICS-2</p>
+</div>
+
+<div class="column-4 project-9" onclick="window.location='physics.html'">
+  <p class="project-text">PHYSICS<p>
+</div>
+
+<div class="column-4 project-10" onclick="window.location='python.html'">
+  <p class="project-text">PYTHON</p>
+</div>
+
+
+
+</body>
+
+</html>

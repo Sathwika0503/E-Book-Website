@@ -1,0 +1,38 @@
+.so{
+    font-family: 'anudaw';
+    font-size:90px;
+    color: black;
+    margin-top: 85px;
+    margin-left:0%;
+    padding:0px 0px 0px 0px;
+  }
+  .text-center-1{
+    text-align: left;
+    font-family: 'anudaw';
+    font-size:90px;
+    color: black;
+    padding:100px 0px 0px 0px;
+  }
+  .project-3 {
+    background-color:#209BFF;
+  }
+  
+  .project-4 {
+    background-color:#112d4e;
+  }
+  
+  .project-5 {
+    background-color:#F9F7F7;
+  }
+  .dbms{
+  width: 85%;
+  padding: 40px;
+  padding-left:100px;
+  padding-right: 70px;
+  height: 900px;
+  margin:30px;
+  margin-right:30px;
+  margin-bottom: 70px;
+  line-height:2;
+  background-color: #FEDE00;
+ }

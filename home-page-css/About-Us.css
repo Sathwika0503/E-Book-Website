@@ -1,0 +1,38 @@
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background-image: url("../images/cool-background2.jpeg")!important;
+  }
+  a {
+    color: #112d4e;
+      }
+
+     
+
+/*Section 1: Header*/
+
+/*Top header profile image*/
+
+.profile-small {
+    height:150px;
+    border-radius: 50%;
+    border: 10px solid #FEDE00;
+}
+
+/* Header Title */
+
+.header {
+    padding: 0px;
+    text-align: center;
+    background: #bdbbb7; ;
+    margin:5px;
+    font-size:100px;
+  }
+  
+/* Includes padding and border in total box size*/
+
+/* Section 2: About */
+
+* {
+    box-sizing: border-box;
+    
+  }
